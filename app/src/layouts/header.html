@@ -1,0 +1,31 @@
+<md-toolbar layout="row" layout-align="end center" >
+
+    <md-button class="md-icon-button" ng-click="toggleSidenav()" hide-gt-md>
+        <md-icon>dehaze</md-icon>
+    </md-button>
+
+    <span flex></span>
+
+    <md-menu-bar>
+        <md-menu md-position-mode="left bottom">
+            <md-list-item class="" ng-click="$mdOpenMenu()"
+                       aria-label="User settings">
+                <img alt="" ng-src="images/profile.jpg" class="md-avatar" />
+                <p>Admin User</p>
+            </md-list-item>
+
+            <md-menu-content width="3">
+                <md-menu-item class="md-indent" ui-sref="app.pages_profile">
+                    <md-icon>person</md-icon>
+                    <md-button>My Profile</md-button>
+                </md-menu-item>
+
+                <md-menu-item class="md-indent">
+                    <md-icon>input</md-icon>
+                    <md-button ng-click="vm.logout()">Logout</md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+    </md-menu-bar>
+
+</md-toolbar>

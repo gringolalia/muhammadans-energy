@@ -1,0 +1,217 @@
+/* Colors */
+
+// Background
+.cd-bkg-white{
+  background: #ffffff;
+}
+
+.cd-bkg-black{
+  background: #000000;
+}
+
+.cd-bkg-gray {
+  background: #f5f5f5; }
+
+.cd-bkg-green {
+  background: #b9f6ca; }
+
+.cd-bkg-yellow {
+  background: #ffff8d; }
+
+.cd-bkg-blue {
+  background: #84ffff; }
+
+.cd-bkg-blue2{
+  background: rgb(100, 181, 246);
+}
+
+.cd-bkg-darkBlue {
+  background: #80d8ff; }
+
+.cd-bkg-deepBlue {
+  background: #448aff; }
+
+.cd-bkg-purple {
+  background: #b388ff; }
+
+.cd-bkg-lightPurple {
+  background: #8c9eff; }
+
+.cd-bkg-red {
+  background: #ff8a80; }
+
+.cd-bkg-pink {
+  background: #ff80ab; }
+
+.cd-bkg-warn{
+  background: #6DC0D5;
+}
+
+// Text
+
+.cd-text-white{
+  color: #ffffff;
+}
+
+.cd-text-black{
+  color: #000000;
+}
+
+.cd-text-gray {
+  color: #f5f5f5; }
+
+.cd-text-green {
+  color: #b9f6ca; }
+
+.cd-text-yellow {
+  color: #ffff8d; }
+
+.cd-text-blue {
+  color: #84ffff; }
+
+.cd-text-blue2{
+  color: rgb(100, 181, 246);
+}
+
+.cd-text-darkBlue {
+  color: #80d8ff; }
+
+.cd-text-deepBlue {
+  color: #448aff; }
+
+.cd-text-purple {
+  color: #b388ff; }
+
+.cd-text-lightPurple {
+  color: #8c9eff; }
+
+.cd-text-red {
+  color: #ff8a80; }
+
+.cd-text-pink {
+  color: #ff80ab; }
+
+/* Fonts */
+
+/* Buttons */
+.fixed-to-bottom-btn{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Margin, Padding */
+.cd-padding-0{
+  padding: 0;
+}
+
+.cd-margin-0{
+  margin: 0;
+}
+
+/* Badges */
+.cd-badge{
+  background-color: #6DC0D5;
+  color: white;
+  border-radius: 25px;
+  padding: 0 10px;
+  margin: 11px 12px;
+  font-size: 13px;
+  line-height: 26px;
+  min-width: 15px;
+  text-align: center;
+}
+
+.cd-badge-right{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cd-badge-left{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.cd-badge-red{
+  background-color: rgb(244, 67, 54);
+}
+
+.cd-badge-green{
+  background-color: rgb(9, 210, 97);
+}
+
+.cd-badge-orange{
+  background-color: rgb(255, 111, 0);
+}
+
+/* Others */
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.icondemoFontIconsWithLigatures {
+  /* Rules for sizing the icon.*/
+  /* Rules for using icons as black on a light background.*/
+  /* Rules for using icons as white on a dark background.*/ }
+.icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures {
+  padding: 25px;
+  width: 100%; }
+.icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures,
+.icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures *:before,
+.icondemoFontIconsWithLigatures .appDemoFontIconsWithLigatures *:after {
+  box-sizing: border-box; }
+.icondemoFontIconsWithLigatures header {
+  overflow: hidden; }
+.icondemoFontIconsWithLigatures header h1 {
+  color: #888;
+  font-size: 36px;
+  font-weight: 300; }
+.icondemoFontIconsWithLigatures .container {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 960px;
+  padding: 40px 40px;
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.icondemoFontIconsWithLigatures .glyph {
+  border-bottom: 1px dotted #ccc;
+  padding: 10px 0 20px;
+  margin-bottom: 20px; }
+.icondemoFontIconsWithLigatures .preview-scale,
+.icondemoFontIconsWithLigatures .preview-glyphs {
+  display: flex;
+  flex-direction: row; }
+.icondemoFontIconsWithLigatures .preview-scale {
+  color: #888;
+  font-size: 12px;
+  margin-top: 24px; }
+.icondemoFontIconsWithLigatures .step {
+  flex-grow: 1;
+  line-height: 0.5; }
+.icondemoFontIconsWithLigatures .usage {
+  margin-top: 10px; }
+.icondemoFontIconsWithLigatures .usage input {
+  font-family: monospace;
+  text-align: center; }
+.icondemoFontIconsWithLigatures .usage .point {
+  width: 150px; }
+.icondemoFontIconsWithLigatures .usage .class {
+  width: 250px; }
+.icondemoFontIconsWithLigatures .material-icons.md-18 {
+  font-size: 18px; }
+.icondemoFontIconsWithLigatures .material-icons.md-24 {
+  font-size: 24px; }
+.icondemoFontIconsWithLigatures .material-icons.md-36 {
+  font-size: 36px; }
+.icondemoFontIconsWithLigatures .material-icons.md-48 {
+  font-size: 48px; }
+.icondemoFontIconsWithLigatures .material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54); }
+.icondemoFontIconsWithLigatures .material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26); }
+.icondemoFontIconsWithLigatures .material-icons.md-light {
+  color: white; }
+.icondemoFontIconsWithLigatures .material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3); }

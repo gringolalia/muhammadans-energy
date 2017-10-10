@@ -1,0 +1,44 @@
+<md-sidenav
+        class="md-sidenav-left"
+        md-component-id="left"
+        md-is-locked-open="$mdMedia('gt-md')"
+        md-whiteframe="4"
+>
+
+
+    <md-toolbar layout="column" layout-align="center center" layout-padding>
+        <img src="images/codenvoi-logo.png" alt="CODENVOI" class="logo cursor-pointer" ui-sref="Landing">
+        <h1 class="md-headline cursor-pointer" ui-sref="Landing">Codenvoi CMS</h1>
+    </md-toolbar>
+
+    <md-sidemenu>
+
+        <md-sidemenu-group>
+            <md-subheader class="md-no-sticky">Navigation</md-subheader>
+
+            <md-sidemenu-button href="#" ui-sref="Landing">
+                <md-icon style="margin: 0; margin-right: 32px;">home</md-icon>
+                Home
+            </md-sidemenu-button>
+
+            <md-sidemenu-content md-icon="apps" md-heading="Projects" md-arrow="true">
+                <md-sidemenu-button href="#">Bright!Tax</md-sidemenu-button>
+                <md-sidemenu-button href="#">Rentakot</md-sidemenu-button>
+                <md-sidemenu-button href="#">Pictaktoe</md-sidemenu-button>
+                <md-sidemenu-button href="#">Babienet</md-sidemenu-button>
+            </md-sidemenu-content>
+
+            <md-sidemenu-button href="#">
+                <md-icon style="margin: 0; margin-right: 32px;">group</md-icon>
+                Developers
+            </md-sidemenu-button>
+
+        </md-sidemenu-group>
+
+    </md-sidemenu>
+
+    <md-content layout-padding>
+
+    </md-content>
+
+</md-sidenav>
