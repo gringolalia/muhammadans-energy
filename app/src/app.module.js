@@ -1,9 +1,3 @@
-/**
- * @ngdoc overview
- * @name app
- * @description Glue to where all the greatness begins
- */
-
 (function(){
 
   'use strict';
