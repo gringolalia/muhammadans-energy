@@ -1,10 +1,3 @@
-/**
- * @ngdoc object
- * @name app.core.constant:httpStatus
- * @description Commonly consumed HTTP Request Codes exposed as an injectable object
- * @example
- */
-
 (function(){
 
   'use strict';

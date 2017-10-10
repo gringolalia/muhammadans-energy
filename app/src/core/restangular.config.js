@@ -1,10 +1,4 @@
 /*
-/!**
- * @ngdoc overview
- * @name app.core
- * @description Configuration block for restangular
- *!/
-
 (function(){
 
   'use strict';

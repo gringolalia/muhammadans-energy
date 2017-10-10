@@ -1,9 +1,3 @@
-/**
- * @ngdoc overview
- * @name app.layouts
- * @description < description placeholder >
- */
-
 (function(){
 
     'use strict';

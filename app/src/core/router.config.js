@@ -1,9 +1,3 @@
-/**
- * @ngdoc overview
- * @name app.core
- * @description Configuration block for routing
- */
-
 (function(){
 
   'use strict';
@@ -29,7 +23,7 @@
     //on routing error
     $rootScope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams){
       //do some title setting
-      $rootScope.pageTitle = toState.title || 'Codenvoi - AngularJS Default Template';
+      $rootScope.pageTitle = toState.title || 'Angular-Material-Template';
       $rootScope.breadcrumbText = toState.breadcrumbText;
     });
   }

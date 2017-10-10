@@ -1,9 +1,3 @@
-/**
- * @ngdoc controller
- * @name app.layouts.controller:Layouts
- * @description < description placeholder >
- */
-
 (function(){
 
 	'use strict';
