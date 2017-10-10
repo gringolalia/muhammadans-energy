@@ -17,7 +17,7 @@ app/bower_components/
 .tmp
 
 #webstorm
-.idea
+.idea/
 
 # CSS files
 app/styles/css/
