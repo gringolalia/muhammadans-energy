@@ -36,10 +36,10 @@
                     resolve: {
                         collections: function($rootScope){
                             $rootScope.collections = [
-                                'Collection 1',
-                                'Collection 2',
-                                'Collection 3',
-                                'Collection 4'
+                                'Collection Alpha',
+                                'Collection Beta',
+                                'Collection Gamma',
+                                'Collection Delta'
                             ]
                             return null;
                         }
@@ -84,7 +84,7 @@
 
             .state('ProjectsCollections', {
                     url:'/projects/:id/collections/:cid',
-                    breadcrumbText: 'Projects > Collections > SelectedCollection',
+                    breadcrumbText: 'Projects > Collections > Selected Collection',
                     views: {
                         '@':{
                             templateUrl:'src/layouts/layouts.html',
@@ -107,10 +107,10 @@
                     resolve: {
                         collections: function($rootScope){
                             $rootScope.collections = [
-                                'Collection 1',
-                                'Collection 2',
-                                'Collection 3',
-                                'Collection 4'
+                                'Stamp Collection',
+                                'Baseball Card Collection',
+                                'Autograph Collection',
+                                'Record Collection'
                             ]
                             return null;
                         }

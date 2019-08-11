@@ -23,7 +23,7 @@
     //on routing error
     $rootScope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams){
       //do some title setting
-      $rootScope.pageTitle = toState.title || 'Angular-Material-Template';
+      $rootScope.pageTitle = toState.title || 'Angular Muhammadan ';
       $rootScope.breadcrumbText = toState.breadcrumbText;
     });
   }

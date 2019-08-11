@@ -1,0 +1,115 @@
+<md-content layout="row" layout-xs="column" layout-wrap layout-align="center center">
+
+    <md-button class="md-fab md-primary fixed-to-bottom-btn" aria-label="Add">
+        <md-icon>add</md-icon>
+    </md-button>
+
+    <md-card  flex="100" flex-gt-xs="45" layout-margin>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Angular</span>
+                <span class="md-subhead">Large</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-sm card-media">
+                    <img src="images/biohazard.svg" alt="Risco Biológical" width="100px">
+                </div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button class="md-raised md-accent" ui-sref="Projects({id: 'abc'})">View</md-button>
+            <md-button class="md-raised md-primary">Update</md-button>
+        </md-card-actions>
+    </md-card>
+
+    <md-card  flex="100" flex-gt-xs="45" layout-margin>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Angular</span>
+                <span class="md-subhead">Large</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-sm card-media">
+                    <img src="images/angular.png" alt="">
+                </div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button>View</md-button>
+            <md-button>Update</md-button>
+        </md-card-actions>
+    </md-card>
+
+    <md-card  flex="100" flex-gt-xs="45" layout-margin>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Angular</span>
+                <span class="md-subhead">Large</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-sm card-media">
+                    <img src="images/angular.png" alt="">
+                </div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button>View</md-button>
+            <md-button>Update</md-button>
+        </md-card-actions>
+    </md-card>
+
+    <md-card  flex="100" flex-gt-xs="45" layout-margin>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Angular</span>
+                <span class="md-subhead">Large</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-sm card-media">
+                    <img src="images/angular.png" alt="">
+                </div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button>View</md-button>
+            <md-button>Update</md-button>
+        </md-card-actions>
+    </md-card>
+
+    <md-card  flex="100" flex-gt-xs="45" layout-margin>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Angular</span>
+                <span class="md-subhead">Large</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-sm card-media">
+                    <img src="images/angular.png" alt="">
+                </div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button>View</md-button>
+            <md-button>Update</md-button>
+        </md-card-actions>
+    </md-card>
+
+    <md-card  flex="100" flex-gt-xs="45" layout-margin>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Angular</span>
+                <span class="md-subhead">Large</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-sm card-media">
+                    <img src="images/angular.png" alt="">
+                </div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button>View</md-button>
+            <md-button>Update</md-button>
+        </md-card-actions>
+    </md-card>
+
+</md-content>

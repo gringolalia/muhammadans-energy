@@ -13,9 +13,10 @@
         ])
         .config(function($mdThemingProvider) {
             $mdThemingProvider.theme('default')
-                .primaryPalette('red')
-                .accentPalette('blue-grey')
-                .warnPalette('cyan')
+                .primaryPalette('blue-grey')
+                .accentPalette('grey')
+                .warnPalette('red')
+                // .warnPalette('cyan')
                 // .backgroundPalette('')
                 // .dark();
         })
