@@ -1,6 +1,6 @@
 var config = require('./gulp.config')();
 var gulp = require('gulp');
-
+var deploy  = require('gulp-gh-pages');
 /*
  * PLUGINS
  * */
@@ -152,4 +152,9 @@ gulp.task('ngAnnotate', function () {
     .pipe(ngAnnotate())
     .pipe(gulpIf('*.js', uglify()))
     .pipe(gulp.dest(config.serverApp + '/scripts/'));
+});
+
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
 });
